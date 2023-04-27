@@ -9,3 +9,4 @@ FROM departamento d
 LEFT JOIN funcionario g ON d.cod_gerente = g.codigo
 LEFT JOIN funcionarios_por_departamento fp ON d.codigo = fp.codigo
 ORDER BY d.codigo;
+
