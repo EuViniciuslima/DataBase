@@ -43,3 +43,4 @@ CREATE TABLE atividade_projeto (
   cod_responsavel INTEGER REFERENCES funcionario(codigo),
   PRIMARY KEY (cod_projeto, cod_atividade)
 );
+
