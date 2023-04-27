@@ -1,3 +1,4 @@
+CREATE TABLE atividade 
 SELECT funcionario.nome 
 FROM funcionario 
 WHERE funcionario.salario > (
