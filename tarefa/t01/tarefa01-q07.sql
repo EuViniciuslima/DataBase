@@ -11,3 +11,4 @@ SELECT departamento.descricao AS nome_departamento,
 FROM departamento 
 LEFT JOIN funcionario ON departamento.cod_gerente = funcionario.codigo 
 LEFT JOIN total_funcionarios ON departamento.codigo = total_funcionarios.cod_depto;
+
