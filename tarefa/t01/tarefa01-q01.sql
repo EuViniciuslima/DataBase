@@ -7,3 +7,4 @@ WHERE funcionario.salario > (
     JOIN departamento ON funcionario.cod_depto = departamento.codigo 
     WHERE departamento.codigo = 2
 );
+
