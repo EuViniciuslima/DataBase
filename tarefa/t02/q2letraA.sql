@@ -1,0 +1,7 @@
+CREATE OR REPLACE FUNCTION calcular_idade(data_nascimento DATE)
+RETURNS INTEGER AS
+$$
+BEGIN
+    RETURN EXTRACT(YEAR FROM AGE(CURRENT_DATE, data_nascimento));
+END;
+$$
