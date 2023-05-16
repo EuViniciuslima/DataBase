@@ -23,4 +23,5 @@ END;
 $$;
 
 
+
 /* Para testar: CALL exibir_funcionarios_acima_media_idade(); */
